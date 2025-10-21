@@ -21,4 +21,14 @@ It fetches real-time weather data from [OpenWeatherMap](https://openweathermap.o
 
 
 ## Setup & Run (Local)
+Running the weather-app
+-first open docker
+In the terminal:
+docker-compose up -d
+mvn spring-boot:run
+
+An example on postman
+-http://localhost:8080/weather?city=Nairobi   in postman
+<img width="953" height="189" alt="image" src="https://github.com/user-attachments/assets/1577cc1a-48b0-450d-b1e5-7ced31951fd2" />
+
 
